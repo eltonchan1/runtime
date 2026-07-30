@@ -1,4 +1,4 @@
-# July 28: the struggles of a kicad noob
+# July 28: the struggles of a kicad noob - 1 hr 17 secs (lapse)
 I read through the runway guide to help me out for this project.
 Reading through the second step, I learned about the different components of a PCB (input, output, connector), and also how to do research (datasheets) and get useful files (symbols for schematics, and footprints for PCBs) for each part.
 
@@ -12,7 +12,7 @@ This is the schematic I have so far:
 
 It looks very complicated and I have no idea what I'm looking at. 
 
-# July 30: remaking the whole schematic
+# July 30: remaking the whole schematic - 41 mins 57 secs (lapse)
 Looking through the datasheets for each component, I realized that I made the whole schematic incorrectly. 
 My schematic looks a lot more complicated than the pinout diagrams for the datasheets.
 
