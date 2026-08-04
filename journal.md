@@ -24,3 +24,13 @@ Here is the new schematic:
 ![Image of schematic progress on 073026](journal-pictures/073026.png)
 
 It's a lot more simpler and makes more sense to me.
+
+# August 3: fixing up the schematic - 11 mins (lapse)
+I got ChatGPT to help me figure out what wires with what, because I actually have no idea how. 
+Apparently you have to wire **everything** that matches, including the 3V3 and GND. 
+I also learned what links to the buzzer through help on Slack (thx Meghana ur goated), which was a GPIO and GND. 
+
+Then I posted an image of my current schematic on Slack so it could be reviewed by someone who knows what they're doing, and it looks good to them, I'll be moving on to designing the PCB (i think)!!!
+
+This is my current schematic:
+![Image of schematic progress on 080326](journal-pictures/080326.png)

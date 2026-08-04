@@ -1408,6 +1408,36 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7056842a-55f2-4968-86c1-9fb2d6f6b3a9")
+	)
+	(wire
+		(pts
+			(xy 113.03 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835b5515-f83d-43f5-aad9-3570662c48f2")
+	)
+	(wire
+		(pts
+			(xy 140.97 116.84) (xy 147.32 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7dad1b0-823e-484e-890e-dc4bfae6817e")
+	)
+	(wire
+		(pts
 			(xy 158.75 99.06) (xy 163.83 99.06)
 		)
 		(stroke
@@ -1426,8 +1456,38 @@
 		)
 		(uuid "dfe27d56-61d2-4ff7-9ab7-ebfae902fe4c")
 	)
+	(label "GND"
+		(at 113.03 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "212765d8-ce57-4b91-9fc4-08a70477db17")
+	)
+	(label "3V3"
+		(at 113.03 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23f122b5-17a1-4b26-8945-6015fe9bba72")
+	)
+	(label "3V3"
+		(at 199.39 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b35c640-00f3-4b51-b6af-184cd979d358")
+	)
 	(label "SDA"
-		(at 130.81 90.17 0)
+		(at 148.59 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1446,8 +1506,18 @@
 		)
 		(uuid "7c49da01-e35e-4741-9f04-ea3e5f9cecba")
 	)
+	(label "GPIO"
+		(at 140.97 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8814c5bd-8b7e-414d-abc4-dcfbd96916a7")
+	)
 	(label "SCL"
-		(at 130.81 87.63 0)
+		(at 148.59 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1466,93 +1536,29 @@
 		)
 		(uuid "8dd00a91-d7e7-4807-a929-1d391a9ee5d4")
 	)
-	(symbol
-		(lib_id "2026-07-30_21-14-12:PS1240P02BT")
-		(at 157.48 128.27 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19e9c7d8-c165-446f-a807-ab77bad8bac4")
-		(property "Reference" "XTAL1"
-			(at 161.29 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
+	(label "GND"
+		(at 157.48 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "PS1240P02BT"
-			(at 161.29 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
+		(uuid "c0db87dc-0897-4cbb-aac6-3674dedf884a")
+	)
+	(label "GND"
+		(at 199.39 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Footprint" "XTAL_PS1240P02BT_TDK"
-			(at 157.48 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "PS1240P02BT"
-			(at 157.48 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "384b71fe-acdf-46ad-bcbb-ac3d8fcbce1a")
-		)
-		(pin "2"
-			(uuid "82bbf97e-c163-4e86-b9ca-2dba4335dd8e")
-		)
-		(instances
-			(project "runtime"
-				(path "/d1f4f7e7-9abc-47dc-b707-94eed0ea39e2"
-					(reference "XTAL1")
-					(unit 2)
-				)
-			)
-		)
+		(uuid "fa02a0d9-8d65-4157-b40e-a768f861dc2a")
 	)
 	(symbol
 		(lib_id "AS5600:AS5600")
-		(at 115.57 87.63 0)
+		(at 133.35 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1563,7 +1569,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a04a772-a506-4c7c-b691-0484e836a48d")
 		(property "Reference" "U1"
-			(at 115.5774 77.47 0)
+			(at 133.3574 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1573,7 +1579,7 @@
 			)
 		)
 		(property "Value" "AS5600"
-			(at 115.5774 80.01 0)
+			(at 133.3574 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1583,7 +1589,7 @@
 			)
 		)
 		(property "Footprint" "AS5600:SOIC8"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1595,7 +1601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1606,7 +1612,7 @@
 			)
 		)
 		(property "Description" "Hall Effect Sensor Rotary Position External Magnet, Not Included Gull Wing"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1618,7 +1624,7 @@
 			)
 		)
 		(property "MF" "Ams AG"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1630,7 +1636,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1642,7 +1648,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1654,7 +1660,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AS5600/ams/view-part/?ref=snap"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1666,7 +1672,7 @@
 			)
 		)
 		(property "MP" "AS5600"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1678,7 +1684,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,7 +1696,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AS5600/ams/view-part/?ref=eda"
-			(at 115.57 87.63 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1736,7 +1742,7 @@
 	)
 	(symbol
 		(lib_id "2026-07-30_21-14-12:PS1240P02BT")
-		(at 135.89 120.65 0)
+		(at 147.32 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1747,7 +1753,7 @@
 		(fields_autoplaced yes)
 		(uuid "a183b46c-ce88-41e0-a164-55a7d3c647b4")
 		(property "Reference" "XTAL1"
-			(at 140.97 113.03 0)
+			(at 152.4 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1757,7 +1763,7 @@
 			)
 		)
 		(property "Value" "PS1240P02BT"
-			(at 140.97 115.57 0)
+			(at 152.4 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1766,8 +1772,8 @@
 				)
 			)
 		)
-		(property "Footprint" "XTAL_PS1240P02BT_TDK"
-			(at 135.89 120.65 0)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +1785,7 @@
 			)
 		)
 		(property "Datasheet" "PS1240P02BT"
-			(at 135.89 120.65 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +1797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 120.65 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,10 +1808,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "384b71fe-acdf-46ad-bcbb-ac3d8fcbce1a")
+			(uuid "384b71fe-acdf-46ad-bcbb-ac3d8fcbce1b")
 		)
 		(pin "2"
-			(uuid "82bbf97e-c163-4e86-b9ca-2dba4335dd8e")
+			(uuid "82bbf97e-c163-4e86-b9ca-2dba4335dd8f")
 		)
 		(instances
 			(project "runtime"
