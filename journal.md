@@ -34,3 +34,15 @@ Then I posted an image of my current schematic on Slack so it could be reviewed 
 
 This is my current schematic:
 ![Image of schematic progress on 080326](journal-pictures/080326.png)
+
+# August 4: fixed the GPIO issue and asked for help again - 12 mins (lapse)
+I forgot to add the GPIO label to the microcontroller so I added that.
+
+Since Meghana asked me to check whether I needed to connect the OUT from the AS5600, I did, and learned that if I'm using I2C, I don't need to use the OUT.
+
+After seeing some other schematics in #runtime, I noticed that their GND is connected to a downwards-facing triangle, and now I'm wondering if I needed to do that as well.
+
+So, I put these things in a message and sent it to #runtime to get more feedback and to get my GND question answered.
+
+This is my schematic right now:
+![Image of schematic progress on 080426](journal-pictures/080426.png)

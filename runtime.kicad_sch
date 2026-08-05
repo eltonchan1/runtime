@@ -1456,6 +1456,16 @@
 		)
 		(uuid "dfe27d56-61d2-4ff7-9ab7-ebfae902fe4c")
 	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec69028b-7922-4828-a2f5-06af4004f923")
+	)
 	(label "GND"
 		(at 113.03 95.25 0)
 		(effects
@@ -1535,6 +1545,16 @@
 			(justify left bottom)
 		)
 		(uuid "8dd00a91-d7e7-4807-a929-1d391a9ee5d4")
+	)
+	(label "GPIO"
+		(at 157.48 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3ce824e-0d1c-4b5c-a784-88f1cdb7a8d9")
 	)
 	(label "GND"
 		(at 157.48 116.84 0)
