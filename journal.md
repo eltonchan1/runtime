@@ -1,3 +1,5 @@
+NOTE: all of my lapses are named runtime#, where # is the session number
+
 # July 28: the struggles of a kicad noob - 1 hr 17 secs (lapse)
 I read through the runway guide to help me out for this project.
 Reading through the second step, I learned about the different components of a PCB (input, output, connector), and also how to do research (datasheets) and get useful files (symbols for schematics, and footprints for PCBs) for each part.
@@ -46,3 +48,33 @@ So, I put these things in a message and sent it to #runtime to get more feedback
 
 This is my schematic right now:
 ![Image of schematic progress on 080426](journal-pictures/080426.png)
+
+# August 6: finished schematic, worked on pcb awaiting review - 2 hrs 37 mins 7 secs (lapse)
+(wait its due in 4 days uh oh i need to lock in)
+Meghana reviewed my schematic that I ended up with yesterday and told me to check if my components have internal pullups, and if not, I would need to add 4.7k resistors to my circuit.
+
+Going through the AS5600 datasheet, I found the sample circuit diagram and was really confused about it. 
+So (of course) I asked Meghana and she helped me understand what everything meant. 
+Because in the diagram, there were external pullups (resistors outside of the actual chip), and I realized that it was just basically telling me what to do. 
+So I just copied the diagram, and after approval from Meghana, I moved on to working on the PCB.
+
+Here is the final(?) schematic:
+![Image of final schematic diagram on 080626](journal-pictures/080626sch.png)
+
+I worked quite a bit on my PCB today. 
+Reading through the guide, I learned how to make it.
+
+However, apparently the footprints are really important to the PCB (the actual things you put on the PCB), so I had to go and assign them because I didn't do that properly.
+I thought that when it was highlighted yellow, that it was just a warning, but apparently not.
+I struggled to assign the footprints because I didn't know which footprint is which, so through trial and error and research, I was able to find the right footprints.
+
+After that came the wiring. 
+It was extremely overwhelming at first because of all of the overlapping blue lines everywhere, but by taking things one wire at a time, I was able to completely.
+But, I didn't like how the shape looked, so I adjusted the positions and shape of the whole thing.
+
+Then, I posted it in Slack for some feedback, but I guess I didn't read the tutorial thoroughly enough because there were a lot of things that could be improved upon.
+
+So, I rewired everything, added a ground pour, and also added images and text to the silkscreen.
+
+Here is my current PCB:
+![Image of PCB progress on 080626](journal-pictures/080626pcb.png)
