@@ -78,3 +78,13 @@ So, I rewired everything, added a ground pour, and also added images and text to
 
 Here is my current PCB:
 ![Image of PCB progress on 080626](journal-pictures/080626pcb.png)
+
+# August 7: fixed issues with the pcb based on feedback - 21 mins (lapse)
+I was told that I don't need to connect the GND pins, which makes sense because the pour's net is GND, which basically means that anything connected to that pour is automatically GND. 
+However, after removing the wires, Meghana noticed that the GND pin for the microcontroller, and neither of us knew what was the issue, so I did some searching online. 
+I figured out that the issue was that the zone clearance was too high (the space between the pour and the pins), so it didn't connect to the microcontroller pin. 
+After lowering the clearance, the pin was successfully connected to the pour.
+I sent a picture in #runtime to recieve feedback on the PCB.
+
+Here is the current PCB:
+![Image of PCB progress on 080726](journal-pictures/080726.png)
