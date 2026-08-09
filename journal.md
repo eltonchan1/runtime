@@ -93,6 +93,9 @@ Here is the current PCB:
 Because it is the weekend, Meghana wasn't available today, so I had to assume my PCB was ok.
 However I totally forgot to add the hole for the keychain in my PCB, so I added it.
 
+Here is the final(?) PCB:
+![Image of PCB progress on 080826](journal-pictures/finalpcb.png)
+
 Next was the firmware. 
 Looking through the datasheets, it was difficult for me to understand anything, so with help from Claude, I learned about some basics of Arduino C++ and made some simple code for my PCB.
 Unfortunately, I don't have a breadboard or anything to test my circuit, so I just have to hope that it's fine.
