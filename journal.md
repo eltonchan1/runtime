@@ -88,3 +88,13 @@ I sent a picture in #runtime to recieve feedback on the PCB.
 
 Here is the current PCB:
 ![Image of PCB progress on 080726](journal-pictures/080726.png)
+
+# August 8: firmware and nearly done - 1 hr 
+Because it is the weekend, Meghana wasn't available today, so I had to assume my PCB was ok.
+However I totally forgot to add the hole for the keychain in my PCB, so I added it.
+
+Next was the firmware. 
+Looking through the datasheets, it was difficult for me to understand anything, so with help from Claude, I learned about some basics of Arduino C++ and made some simple code for my PCB.
+Unfortunately, I don't have a breadboard or anything to test my circuit, so I just have to hope that it's fine.
+
+I also looked through the example GitHub repo file structure and tried to copy it the best I could. I don't have the test.ino, and I'm not sure how to get the production files, but I noticed I haven't made a README yet. So I made that, based on what was in the guide, including a project name, input, output, connector, short description, screenshots, and a BOM.
