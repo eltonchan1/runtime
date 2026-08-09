@@ -26,5 +26,4 @@ PCB:
 | AS5600 Magnetic angle sensor  | 1   | JLCPCB catalog  | $1.41           |
 | 4.7k resistor                 | 2   | JLCPCB catalog  | $0.02           |
 | Passive piezo buzzer          | 1   | JLCPCB catalog  | $0.22           |
-|-------------------------------|-----|-----------------|-----------------|
-| Total Cost                                            | $5.55           |
+| Total Cost                    | n/a | n/a             | $5.55           |
