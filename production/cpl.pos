@@ -1,0 +1,11 @@
+### Footprint positions - created on 2026-08-08T18:44:59 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val              Package                                     PosX       PosY       Rot  Side
+R1        4.7k             R_0603_1608Metric                       127.6500  -116.3812  180.0000  top
+R2        4.7k             R_0603_1608Metric                       127.6500  -114.0000  180.0000  top
+U1        AS5600           SOIC-8_3.9x4.9mm_P1.27mm                136.0000  -115.0000  180.0000  top
+U2        XIAO-RP2040-DIP  MCU_Seeed_ESP32C3                       133.0875  -100.4125    0.0000  top
+XTAL1     PS1240P02BT      Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm   130.6292  -127.0000    0.0000  top
+## End
