@@ -1,4 +1,4 @@
-NOTE: all of my lapses are named runtime#, where # is the session number
+NOTE: all of my lapses are named runtime#, where # is the session number, also theyre all unlisted
 
 # July 28: the struggles of a kicad noob - 1 hr 17 secs (lapse)
 I read through the runway guide to help me out for this project.
@@ -89,7 +89,7 @@ I sent a picture in #runtime to recieve feedback on the PCB.
 Here is the current PCB:
 ![Image of PCB progress on 080726](journal-pictures/080726.png)
 
-# August 8: firmware and nearly done - 1 hr 
+# August 8: firmware and nearly done - 1 hr (lapse)
 Because it is the weekend, Meghana wasn't available today, so I had to assume my PCB was ok.
 However I totally forgot to add the hole for the keychain in my PCB, so I added it.
 
@@ -101,3 +101,10 @@ Looking through the datasheets, it was difficult for me to understand anything, 
 Unfortunately, I don't have a breadboard or anything to test my circuit, so I just have to hope that it's fine.
 
 I also looked through the example GitHub repo file structure and tried to copy it the best I could. I don't have the test.ino, and I'm not sure how to get the production files, but I noticed I haven't made a README yet. So I made that, based on what was in the guide, including a project name, input, output, connector, short description, screenshots, and a BOM.
+
+# August 10: production files and submitting - 6 mins (lapse) 
+I learned how to add the production files (gerbers) and now I am going to submit. 
+Let's hope I don't get rejected.
+
+Here is a picture of my gerbers on JLCPCB:
+![Image of gerbers on JLCPCB](journal-pictures/gerbersjlcpcb.png)
